@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #dddcdc;
+    color: black;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;/*1200*/
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav-list a:hover {
+    border-bottom: 2px solid #3f3e3e;
+}
+.image img{
+    width:auto;
+    height:490px;
+    margin-left: 100px;
+}
+.body_container{
+    display: flex;
+}
+.login{
+    width: 400px;
+    height: 490px;
+    margin-left: 200px;
+    margin-top:5px;
+    border-radius:1cap;
+    background-color: rgb(210, 206, 206);
+}
+#form{
+    text-align: center;
+    margin-top: 100px;
+}
+.name,.email{
+    margin-right: 210px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+.inName,.inEmail{
+    width:250px;
+    height:20px;
+    border:none;
+    border-radius: 2cap;
+}
+.submit{
+    border-radius: 1cap;
+    border:none;
+    width: 250px;
+    height:22px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    cursor: pointer;
+}
+.heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
+.submit:hover{
+    background-color: dodgerblue;
+    color:azure;
+}
